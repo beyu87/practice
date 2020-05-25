@@ -1,0 +1,129 @@
+* {
+	box-sizing: border-box;
+	margin: 0;
+    padding: 0;
+
+}
+
+body {
+    margin: 0;
+	font-size: 16px;
+	font-family: 'Montserrat', sans-serif;
+    width: 1448px;
+}
+
+/**HEADER**/
+
+.header {
+	width: 1448px;
+	height: 950px;
+	background-color: #ebe3e1;
+}
+
+.container {
+    width: 1250px;
+    height: 865px;
+    margin-left: 96px;
+    margin-right: 96px;
+	padding-top: 87px;
+}
+
+.nav-wrapper {
+	display: flex;
+	justify-content: space-between;
+	align-items: baseline;
+	margin-bottom: 110px;
+}
+
+
+.hello  {
+	color: #a7513c;
+	font-family: 'Montserrat', sans-serif;
+	font-size: 17.5px;
+	text-transform: uppercase;
+	letter-spacing: 3.5px;
+	line-height: 2.3em;
+}
+
+.logo {
+	font-family: 'Playfair Display', serif;
+	text-align: center;
+    color: #a7513d;
+    font-size: 30.94px;
+    text-transform: uppercase;
+    letter-spacing: 8.66px;
+    line-height: 1em;
+}
+
+.logo span {
+	padding-left: 35px;
+}
+
+.nav {
+	display: flex;
+	padding-left: 0px;
+	justify-content: space-between;
+	list-style: none;
+}
+
+.nav-item {
+    color: #a7513c;
+	font-size: 17.5px;
+	text-transform: uppercase;
+	letter-spacing: 3.5px;
+	line-height: 2.3em;
+}
+
+.nav-link {
+    color: #a7513c;
+	text-decoration: none;
+}
+
+.nav-link:hover {
+	text-decoration: underline;
+}
+
+.header-content {
+	width: 100%px;
+	height: 638px;
+	margin-left: auto;
+	margin-right: auto;
+	background-image: url('../images/flower.png');
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size: contain;
+}
+
+.names {
+	color: #a95139;
+	font-family: 'Playfair Display', serif;
+	font-size: 118.5px;
+	letter-spacing: 33.20px;
+	text-align: center;
+	padding: 240px 0 282px 0px;
+	margin-right: auto;
+	margin-left: auto;
+	text-transform: uppercase;
+	line-height: 1em;
+}
+
+.names span {
+	padding-left: 30px;
+}
+
+/**FOOTER**/
+
+.footer {
+	height: 85.25px;
+	background-color: #a95139;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	color: #e9e3e0;
+	font-family: 'Playfair Display', serif;
+	font-size: 25.8px;
+	text-transform: uppercase;
+	letter-spacing: 7.22px;
+	line-height: 1em;
+}
+
