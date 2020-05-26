@@ -319,10 +319,116 @@ body {
 .content-group4 {
 	width: 1448px;
 	height: 741px;
-	background-color: #a95139; 	
+	background-color: #a95139; 
 }
 
+.form {
+	width: 960px;
+	margin-left: auto;
+	margin-right: auto;
+
+}
+
+#respond {
+	padding-top: 142px;
+	padding-bottom: 142px;
+}
+
+.form-title {
+	margin-bottom: 40px;
+}
+
+#legend {
+	color: #ebe3e1;
+	font-family: "Playfair Display";
+	font-size: 31px;
+	font-weight: 700;
+	line-height: 1em;
+	font-variant: small-caps;
+	text-transform: uppercase;
+	letter-spacing: 16.7px;
+	text-align: center;
+}
+
+input {
+	background-color: #a95139;
+	color: #ebe3e1;
+	padding: 12px 20px;
+	margin-bottom: 30px;
+	display: inline-block;
+	border: 1px solid #ebe3e1;
+	box-sizing: border-box;
+	font-family: Montserrat;
+	font-size: 12px;
+	line-height: 2.3em;
+	text-transform: uppercase;
+	letter-spacing: 4.8px;
+}
+
+::placeholder {
+	color: #ebe3e1;
+	font-family: Montserrat;
+	font-size: 12px;
+	line-height: 2.3em;
+	text-transform: uppercase;
+	letter-spacing: 4.8px;
+}
+
+:active, :hover, :focus {
+    outline: 0;
+    outline-offset: 0;
+}
+
+
+
+input[type=text] {
+	width: 960px;
+	height: 40px;
+}
+
+textarea {
+	width: 960px;
+	background-color: #a95139;
+	color: #ebe3e1;
+	border: 1px solid #ebe3e1;
+	box-sizing: border-box;
+	padding: 12px 20px;
+	margin-bottom: 30px;
+	color: #ebe3e1;
+	font-family: Montserrat;
+	font-size: 12px;
+	line-height: 2.3em;
+	text-transform: uppercase;
+	letter-spacing: 4.8px;
+}
+
+
+.submit-wrapper {
+	text-align: center;
+	height: 75px;
+	margin: 0;
+}
+
+input[type=submit] {
+	border: none;
+	padding: 10px;
+	margin: 0;
+	font-family: Montserrat;
+	font-size: 17px;
+	line-height: 2.2em;
+	text-decoration: underline;
+	text-transform: uppercase;
+	letter-spacing: 6.8px;
+}
+
+input[type=submit]:hover {
+	background-color: #ebe3e1;
+	color: #a95139;
+}
+
+
 /**End Group4**/
+
 
 /**Group5**/
 
@@ -364,6 +470,7 @@ body {
 	text-transform: uppercase;
 }
 
+/**End Group5**/
 
 /**FOOTER**/
 
