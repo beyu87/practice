@@ -1,8 +1,11 @@
+
 @font-face {
 font-family: 'Reey Regular';
 font-style: normal;
 font-weight: normal;
-src: local('Reey Regular'), url('../fonts/Reey-Regular.woff') format('woff');
+src: url('../fonts/Reey-Regular.woff') format('woff'),
+url('../fonts/Reey-Regular.ttf') format('truetype');
+font-display: swap;
 }
 
 
@@ -19,5 +22,84 @@ body {
 }
 
 h1 {
-	font-family: 'Reey-Regular';
+	font-family: 'Reey Regular';
+	font-size: 92px;
+	font-weight: 400;
+}
+
+.content-wrapper{
+	width: 1350px;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+header {
+	width: 1440px;
+	height: 1056px;
+	background: url('../images/header-background.jpg');
+}
+
+.header-container {
+	width: 1350px;
+	margin-left: 45px;
+	margin-right: 45px;
+	color: #ffffff;
+	padding-top: 45px;
+}
+
+.nav-wrapper {
+	display: flex;
+	justify-content: flex-end;
+
+}
+
+.nav {
+	list-style: none;
+	display: flex;
+	justify-content: space-between;
+}
+
+
+
+.nav-item {
+	color: #ffffff;
+	font-size: 17px;
+	font-weight: 700;
+	text-transform: uppercase;
+	letter-spacing: 3.33px;
+	line-height: 1em;
+	padding-right: 55px;
+
+}
+
+.nav-link {
+	color: #ffffff;
+	text-decoration: none;
+}
+
+.header-content {
+	width: 1350px;
+	height: 817px;
+	margin-top: 105px;
+}
+
+.logo {
+	width: 150px;
+	max-height: 150px;
+}
+
+.header-container h1 {
+	padding-left: 50px;
+}
+
+
+
+/**End Header**/
+
+/**Content**/
+
+.content-wrapper{
+	width: 1350px;
+	margin-left: auto;
+	margin-right: auto;
 }
