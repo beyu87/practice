@@ -27,6 +27,16 @@ h1 {
 	font-weight: 400;
 }
 
+.btn-gray  {
+	background-color: #ebebeb;
+	color: #2e3034;
+	padding: 14px 37px;
+	border-radius: 100px;
+	text-transform: uppercase;
+	border: none;
+	text-decoration: none;
+}
+
 .content-wrapper{
 	width: 1350px;
 	margin-left: auto;
@@ -50,6 +60,8 @@ header {
 .nav-wrapper {
 	display: flex;
 	justify-content: flex-end;
+	align-items: center;
+	margin: 17px 0;
 
 }
 
@@ -77,20 +89,118 @@ header {
 	text-decoration: none;
 }
 
+.search form {
+	width: 183px;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    align-content: center;
+
+
+}
+.search input[type=text] {
+	width: 183px;
+	height: 51px;
+	border: none;
+	border-radius: 100px;
+	font-size: 20px;
+	background-color: #ebebeb;
+	color: #2e3034;
+	text-transform: uppercase;
+	font-family: "Open Sans";
+	font-weight: 600;
+}
+
+
+
 .header-content {
 	width: 1350px;
 	height: 817px;
-	margin-top: 105px;
+	margin-top: 117px;
+	display: flex;
+	justify-content: flex-start;
+	align-items: flex-start;
+}
+
+.slider-text {
+	width: 675px;
+ 	height: 817px;
+ 	display: block;
+ 	padding-left: 50px;
 }
 
 .logo {
 	width: 150px;
 	max-height: 150px;
+	margin-bottom: 23px;
 }
 
 .header-container h1 {
-	padding-left: 50px;
+	padding-top: 50px;
+	text-shadow: 0 5px 5px rgba(84, 82, 79, 0.22);
+	line-height: 1em;
 }
+
+.focus-line {
+	font-size: 25px;
+	font-weight: 700;
+	font-style: italic;
+	text-transform: uppercase;
+	letter-spacing: 5px;
+	line-height: 1em;
+	margin-top: 100px;
+	margin-bottom: 64px;
+}
+
+#btn-slide {
+	font-family: "Open Sans", sans-serif;
+	font-weight: 800;
+	font-size: 25px;
+}
+
+.button {
+	padding-top: 14px;
+	padding-bottom: 14px;
+}
+
+.desc {
+	width: 100%;
+	margin-right: 0;
+	margin-top: 25px;
+	font-size: 21px;
+	letter-spacing: 1px;
+	line-height: 1.3em;
+	font-style: italic;
+	font-weight: 400;
+}
+
+.slider-images {
+	width: 675px;
+ 	height: 817px;
+}
+
+.plate {
+  position: absolute;
+  top: 248px;
+  right: 56px;
+  bottom: 188px;
+  left: 766px;
+}
+
+.plate2 {
+  position: absolute;
+  right: 531px;
+  left: 632px;
+  top: 723px;
+}
+
+.leaf {
+  position: absolute;
+  right: 0;
+  top: 709px;
+  left: 895px;
+}
+
 
 
 
