@@ -1,0 +1,23 @@
+@font-face {
+font-family: 'Reey Regular';
+font-style: normal;
+font-weight: normal;
+src: local('Reey Regular'), url('../fonts/Reey-Regular.woff') format('woff');
+}
+
+
+* {
+	box-sizing: border-box;
+	margin: 0;
+	padding: 0;
+}
+
+body {
+	width: 1440px;
+	background-color: #ffffff;
+	font-family: "Open Sans", sans-serif;
+}
+
+h1 {
+	font-family: 'Reey-Regular';
+}
