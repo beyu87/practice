@@ -26,6 +26,16 @@ h1 {
 	font-weight: 400;
 }
 
+h2 {
+	font-family: 'Reey Regular';
+	font-size: 75px;
+	font-weight: 400;
+}
+
+a {
+	text-decoration: none;
+	color: black;
+}
 .btn-gray  {
 	background-color: #ebebeb;
 	color: #2e3034;
@@ -35,6 +45,18 @@ h1 {
 	border: none;
 	text-decoration: none;
 }
+
+.btn-black  {
+	background-color: #343434;
+	color: #ffffff;
+	padding: 14px 37px;
+	border-radius: 100px;
+	text-transform: uppercase;
+	border: none;
+	text-decoration: none;
+}
+
+
 
 .content-wrapper{
 	width: 1350px;
@@ -240,4 +262,98 @@ header {
 	width: 1350px;
 	margin-left: auto;
 	margin-right: auto;
+}
+
+/**MENU**/
+
+.menu {
+	height: 1116px;
+	margin-top: 35px;
+}
+
+.menu-title {
+	margin-top: 30px;
+}
+.menu-title h2 {
+	padding-top: 63px;	
+	text-align: center;
+}
+
+.title-desc {
+	color: #2f3135;
+	font-family: "Open Sans";
+	font-size: 27px;
+	margin-top: 50px;
+	width: 694px;
+	text-align: center;
+	line-height: 1.5em;
+	width: 694px;
+	margin-left: auto;
+	margin-right: auto;
+	margin-bottom: 90px;
+	
+}
+
+.menu-items {
+	width: 1173px;
+	display:flex;
+	justify-content: center;
+	align-items: center;
+	margin-top: 95px;
+	margin-left: 63px;
+	margin-right: auto;
+}
+
+.item {
+	width: 334px;
+	margin-left: 95px;
+}
+
+.item-img {
+	width: 334px;
+	height: 322px;
+	object-fit: contain;
+	margin-bottom: 50px;
+}
+
+.item-img img {
+	width: 334px;
+	height: 322px;
+}
+
+.item-desc {
+	padding-left: 25px;
+}
+
+.item-title {
+	color: #343434;
+	font-family: "Open Sans";
+	font-size: 29px;
+	font-weight: 700;
+	line-height: 1.2em;
+}
+
+
+.item-desc-text {
+	color: #343434;
+	font-family: "Open Sans";
+	font-size: 23px;
+	line-height: 1.2em;
+	margin-top: 19px;
+}
+
+.btn-menu-items {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	margin-top: 115px;
+}
+
+#btn-menu-items {
+	font-family: "Open Sans";
+	font-size: 23px;
+	font-weight: 800;
+	line-height: 0.9em;
+	text-transform: uppercase;
+	letter-spacing: 4.6px;
 }
