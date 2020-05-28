@@ -1,11 +1,10 @@
 
 @font-face {
-font-family: 'Reey Regular';
-font-style: normal;
-font-weight: normal;
-src: url('../fonts/Reey-Regular.woff') format('woff'),
-url('../fonts/Reey-Regular.ttf') format('truetype');
-font-display: swap;
+	font-family: 'Reey Regular';
+	font-style: normal;
+	font-weight: normal;
+	src: url('../fonts/Reey-Regular.woff') format('woff'),
+	url('../fonts/Reey-Regular.ttf') format('truetype');
 }
 
 
@@ -43,6 +42,8 @@ h1 {
 	margin-right: auto;
 }
 
+/**HEADER**/
+
 header {
 	width: 1440px;
 	height: 1056px;
@@ -56,6 +57,10 @@ header {
 	color: #ffffff;
 	padding-top: 45px;
 }
+
+/**SEARCH & NAVIGATION**/
+
+/**Navigation**/
 
 .nav-wrapper {
 	display: flex;
@@ -89,29 +94,49 @@ header {
 	text-decoration: none;
 }
 
-.search form {
-	width: 183px;
-    display: flex;
-    justify-content: flex-end;
-    align-items: center;
-    align-content: center;
+/**Search**/
 
-
-}
-.search input[type=text] {
-	width: 183px;
-	height: 51px;
-	border: none;
+.search-box {
+	background-color: #ffffff;
+	height: 50px;
 	border-radius: 100px;
-	font-size: 20px;
-	background-color: #ebebeb;
-	color: #2e3034;
-	text-transform: uppercase;
-	font-family: "Open Sans";
-	font-weight: 600;
+	padding: 10px;
+}
+
+.search-btn {
+	color: black;
+	float: right;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	text-decoration: none;
+	font-size: 30px;
+	padding-right: 25px;
+
 }
 
 
+.search-text {
+	border: none;
+	background: none;
+	outline: none;
+	float: left;
+	padding: 0;
+	color: #2e3034;
+	font-size: 16px;
+	font-family: 'Open Sans';
+	line-height: 30px;	
+	width: 120px;
+	text-transform: uppercase;
+}
+
+.search-box:hover > .search-text {
+	width: 360px;
+}
+
+/**End Search & Navigation**/
+
+/**HEADER CONTENT**/
 
 .header-content {
 	width: 1350px;
@@ -122,7 +147,9 @@ header {
 	align-items: flex-start;
 }
 
-.slider-text {
+/**Text-Side**/
+
+.main-text {
 	width: 675px;
  	height: 817px;
  	display: block;
@@ -152,16 +179,13 @@ header {
 	margin-bottom: 64px;
 }
 
-#btn-slide {
+#btn-main-text {
 	font-family: "Open Sans", sans-serif;
 	font-weight: 800;
 	font-size: 25px;
 }
 
-.button {
-	padding-top: 14px;
-	padding-bottom: 14px;
-}
+
 
 .desc {
 	width: 100%;
@@ -174,35 +198,34 @@ header {
 	font-weight: 400;
 }
 
-.slider-images {
+/**Images Side**/
+
+.main-images {
 	width: 675px;
  	height: 817px;
 }
 
 .plate {
-  position: absolute;
-  top: 248px;
-  right: 56px;
-  bottom: 188px;
-  left: 766px;
+	position: absolute;
+	top: 248px;
+	right: 56px;
+	bottom: 188px;
+	left: 766px;
 }
 
 .plate2 {
-  position: absolute;
-  right: 531px;
-  left: 632px;
-  top: 723px;
+	position: absolute;
+	right: 531px;
+	left: 632px;
+	top: 723px;
 }
 
 .leaf {
-  position: absolute;
-  right: 0;
-  top: 709px;
-  left: 895px;
+	position: absolute;
+	right: 0;
+	top: 709px;
+	left: 895px;
 }
-
-
-
 
 /**End Header**/
 
