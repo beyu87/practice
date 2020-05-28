@@ -179,6 +179,11 @@ header {
 	margin-bottom: 64px;
 }
 
+.button {
+	padding-top: 14px;
+	padding-bottom: 14px;
+}
+
 #btn-main-text {
 	font-family: "Open Sans", sans-serif;
 	font-weight: 800;
