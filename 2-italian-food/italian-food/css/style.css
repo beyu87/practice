@@ -417,3 +417,102 @@ header {
 	background: black;
 	color: white;
 }
+
+/**End Info Text on black background**/
+
+/**Promo Section**/
+
+.promo-container {
+	width: 100%;
+	height: 1500px;
+}
+
+.promo-actions {
+	width: 1350px;
+	height: 1435px;
+	margin-right: auto;
+	margin-left: auto;
+	position: relative;
+	top: 50%;
+	transform: translateY(-50%);
+}
+
+.action1 {
+	display: flex;
+	justify-content: flex-start;
+	align-items: flex-start;
+	margin-bottom: 20px;
+}
+
+.promo1-img {
+	width: 650px;
+	height: 705px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.promo1-img img {
+	width: 645px;
+}
+
+
+.promo-desc {
+	color: #27292c;
+	width: 570px;
+	margin-top: 110px;
+}
+
+
+.action-title {
+	font-family: "Open Sans";
+	font-size: 58px;
+	font-weight: 700;
+	display: inline-block;
+	margin-bottom: 45px;
+	line-height: 1.1em;
+}
+
+.action-desc {
+	font-family: "Open Sans";
+	font-size: 29px;
+	line-height: 1.2em;
+}
+
+#promo1-btn {
+	padding: 26px 60px;
+	display: inline-block;
+	margin-top: 45px;
+	font-size: 29px;
+	font-weight: 700;
+	line-height: 0.7em;
+	letter-spacing: 5.8px;
+}
+
+.action2 {
+	display: flex;
+	justify-content: flex-end;
+	align-items: flex-start;
+}
+
+#promo2-btn {
+	padding: 28px 82px;
+	display: inline-block;
+	margin-top: 45px;
+	font-size: 23px;
+	font-weight: 700;
+	line-height: 0.9em;
+	letter-spacing: 4.6px;
+}
+
+.promo2-img {
+	width: 695px;
+	height: 757px;
+	display: flex;
+	justify-content: flex-start;
+	align-items: center;
+}
+
+.promo2-img img {
+	width: 690px;
+}
